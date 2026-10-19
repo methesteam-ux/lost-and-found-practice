@@ -1,0 +1,30 @@
+# Python 자동 생성물
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 가상환경
+venv/
+.venv/
+
+# 비밀 정보 - 절대 커밋하지 않는다
+.env
+*.key
+secrets.*
+credentials*
+
+# 개인 메모·임시 파일
+*.tmp
+*~
+.DS_Store
+Thumbs.db
+
+# 편집기·IDE 설정
+.vscode/
+.idea/
+.claude/settings.local.json
